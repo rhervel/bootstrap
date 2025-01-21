@@ -84,72 +84,102 @@
 
 
   <!-- Bienvenida -->
-  <section class="section" id="bienvenida">
 
-    <div class="container">
 
-    <h2 class="">¡Bienvenidos a la web de Tecnología y Digitalización!</h2>
+    <div class="container px-4 py-5">
+
+    <h2 class="pb-2 border-bottom">¡Bienvenidos a la web de Tecnología y Digitalización!</h2>
 
       <p>Aquí encontrarás todo lo que necesitas para disfrutar y aprender en nuestra asignatura. Podrás acceder a apuntes, recursos interactivos, proyectos emocionantes y noticias importantes desde cualquier lugar. </p>
       <p>Nuestro objetivo es que descubras el apasionante mundo de la tecnología mientras desarrollas habilidades prácticas y creativas que te preparen para los retos del futuro.</p>
       <p>Recuerda explorar cada sección y no dudes en plantear tus dudas. ¡Estamos aquí para ayudarte a sacar el máximo provecho de esta experiencia!</p>
     </div>
-  </section>
+
   <!-- FIN Bienvenida -->
 
-<!-- Tarjetas -->
-<section class="section" id="tarjetas">
-<div class="row">
-  <div class="col-md-6">
-    <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-      <div class="col p-4 d-flex flex-column position-static">
-        <h3 class="mb-0">TYD 2º ESO</h3>
-        <p class="card-text mb-auto">En segundo, exploramos los fundamentos de la tecnología, desde el diseño técnico hasta la construcción de proyectos básicos.</p>
-        <a href="2eso.html" class="icon-link gap-1 icon-link-hover stretched-link">
-          Sigue leyendo
-          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-        </a>
-      </div>
-      <div class="col-auto d-none d-lg-block">
-        <a href="2eso.html">
-         <img src="img/1.jpg">
-       </a>
-     </div>
-   </div>
- </div>
 
- <div class="col-md-6">
-  <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-    <div class="col p-4 d-flex flex-column position-static">
-      <h3 class="mb-0">TYD 3º ESO</h3>
-      <p class="card-text mb-auto">En tercero, avanzamos hacia proyectos más complejos y el uso de nuevas tecnologías.</p>
-      <a href="3eso.html" class="icon-link gap-1 icon-link-hover stretched-link">
-        Sigue leyendo
-        <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-      </a>
+<!-- Custom Cards -->
+ <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Custom cards</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/cc-1.jpg'); text-align: center; background-size: cover; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">TYD 2º ESO</h3>
+            <!--<ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>3d</small>
+              </li>
+            </ul>-->
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/cc-2.jpg'); text-align: center; background-size: cover; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">TYD 3º ESO</h3>
+            <!--<ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Pakistan</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>4d</small>
+              </li>
+            </ul>-->
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/cc-3.jpg'); text-align: center; background-size: cover; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Proyectos</h3>
+            <!--<ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>5d</small>
+              </li>
+            </ul>-->
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-auto d-none d-lg-block">
-      <a href="3eso.html">
-       <img src="img/2.jpg">
-     </a>
-   </div>
- </div>
-</div>
-</div>
-</section>
-<!-- FIN Tarjetas -->
+  </div>
+<!-- FIN Custom Cards -->
 
 
 <!-- Recursos -->
-<section class="section" id="recursos">
-  <h3>¿Qué encontrarás aquí?</h3>
+<div class="container px-4 py-5">
+  <h2 class="pb-2 border-bottom">¿Qué encontrarás aquí?</h2>
       <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
       <ul>
         <li>First list item</li>
         <li>Second list item with a longer description</li>
         <li>Third list item to close it out</li>
       </ul>
-</section>
+</div>
 <!-- FIN Recursos -->
 
 
@@ -327,33 +357,13 @@
 </div>
 <!-- FIN Blog -->
 
-
-<div>
- <h1>Encabezado nivel 1</h1>
- <h2>Encabezado nivel 2</h2>
- <h3>Encabezado nivel 3</h3>
- <h4>Encabezado nivel 4</h4>
- <h5>Encabezado nivel 5</h5>
- <h6>Encabezado nivel 6</h6>
- <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. </p>
- <b>Texto en negrita</b>
- <strong>Texto importante</strong>
- <i>Texto en cursiva</i>
- <em>Texto con énfasis</em>
- <blockquote>
-  Este es un ejemplo de una cita en bloque.
-</blockquote>
-<p>Albert Einstein dijo: <q>La imaginación es más importante que el conocimiento.</q></p>
-<cite>El Quijote</cite>
-</div>
-
 <!-- Tipografía -->
 <article class="my-3" id="typography">
 
-  <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+  <!--<div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
     <h3>Typography</h3>
     <a class="d-flex align-items-center" href="../content/typography/">Documentation</a>
-  </div>
+  </div>-->
 
   <div>
 
@@ -457,6 +467,7 @@
 <!-- FIN Tipografía -->
 
 <!-- Accordions -->
+<section class="section">
 <div class="container">
   <h2>Repasa lo aprendido</h2>
   <div class="bd-example-snippet bd-code-snippet">
@@ -503,7 +514,54 @@
     </div>
   </div>
 </div>
+</section>
 <!-- FIN Accordions -->
+
+
+<!-- Tarjetas -->
+<section class="section" id="tarjetas">
+<div class="row">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <h3 class="mb-0">TYD 2º ESO</h3>
+        <p class="card-text mb-auto">En segundo, exploramos los fundamentos de la tecnología, desde el diseño técnico hasta la construcción de proyectos básicos.</p>
+        <a href="2eso.html" class="icon-link gap-1 icon-link-hover stretched-link">
+          Sigue leyendo
+          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <a href="2eso.html">
+         <img src="img/1.jpg">
+       </a>
+     </div>
+   </div>
+ </div>
+
+ <div class="col-md-6">
+  <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+    <div class="col p-4 d-flex flex-column position-static">
+      <h3 class="mb-0">TYD 3º ESO</h3>
+      <p class="card-text mb-auto">En tercero, avanzamos hacia proyectos más complejos y el uso de nuevas tecnologías.</p>
+      <a href="3eso.html" class="icon-link gap-1 icon-link-hover stretched-link">
+        Sigue leyendo
+        <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+      </a>
+    </div>
+    <div class="col-auto d-none d-lg-block">
+      <a href="3eso.html">
+       <img src="img/2.jpg">
+     </a>
+   </div>
+ </div>
+</div>
+</div>
+</section>
+<!-- FIN Tarjetas -->
+
+
+
 
 </main>
 
