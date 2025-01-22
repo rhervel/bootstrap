@@ -146,3 +146,11 @@
     .tarjeta{
       padding: 0px;
     }
+    a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:   #d0e1e1;
+  background-color: transparent;
