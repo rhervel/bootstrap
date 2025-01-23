@@ -119,8 +119,15 @@
 
     /* Estilos personales*/
     
-    body {
+    header, footer, .index {
       font-family: 'Roboto Mono';
+      font-size: 1rem;
+      line-height: 1.5rem;
+
+    }
+    body{
+      line-height: 1.9rem;
+      font-size: 1.25rem;
     }
     .fondo{
       background-image: url(img/source-4280758_1280.jpg);
@@ -146,6 +153,9 @@
     .tarjeta{
       padding: 0px;
     }
+    a{
+      color: #5b5a5a;
+    }
     a:link {
       color: white;
       background-color: transparent;
@@ -154,3 +164,10 @@
     a:hover {
       color:   #d0e1e1;
       background-color: transparent;
+    }
+    .index:li{
+      padding-top: 1rem;
+    }
+    p{
+      padding-top: 1rem;
+    }
